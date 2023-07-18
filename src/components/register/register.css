@@ -1,0 +1,33 @@
+.register-container {
+     margin: 0px;
+     padding: 0px;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+.register-layout {
+     display: flex;
+     flex-direction: column;
+     width: 450px;
+}
+.register-message {
+     text-align: center;
+     color: white;
+}
+.valid {
+     display: inline-block;
+}
+.hide {
+     display: none;
+}
+.valid-icon {
+     color: green;
+}
+.invalid-icon {
+     color: red;
+}
+@media only screen and (max-width:700px){
+     .register-layout {
+          width: 350px;
+     }
+}
